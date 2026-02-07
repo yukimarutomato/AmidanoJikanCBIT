@@ -1,0 +1,193 @@
+{
+  "VarticalLineNumber": 4,
+  "charaList": [
+    {
+      "id": 0,
+      "name": "イチカ",
+      "comment": null,
+      "likeCharaId": 1,
+      "disLikeCharaId": 2,
+      "StartPosition": -1
+    },
+    {
+      "id": 1,
+      "name": "フタバ",
+      "comment": null,
+      "likeCharaId": 2,
+      "disLikeCharaId": 3,
+      "StartPosition": -1
+    },
+    {
+      "id": 2,
+      "name": "ミツヤ",
+      "comment": null,
+      "likeCharaId": 3,
+      "disLikeCharaId": 4,
+      "StartPosition": -1
+    },
+    {
+      "id": 3,
+      "name": "シロウ",
+      "comment": null,
+      "likeCharaId": 4,
+      "disLikeCharaId": 5,
+      "StartPosition": -1
+    },
+    {
+      "id": 4,
+      "name": "イツキ",
+      "comment": null,
+      "likeCharaId": 5,
+      "disLikeCharaId": 0,
+      "StartPosition": -1
+    },
+    {
+      "id": 5,
+      "name": "ムツミ",
+      "comment": null,
+      "likeCharaId": 0,
+      "disLikeCharaId": 1,
+      "StartPosition": -1
+    }
+  ],
+  "flagList": [
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 0
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 1
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 2
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 3
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 4
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 5
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 6
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 7
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 8
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 9
+    }
+  ],
+  "HorLineInfo": [
+    {
+      "horLineId": 0,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 1,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 2,
+      "isActive": false,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 3,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 4,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 5,
+      "isActive": false,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 6,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 7,
+      "isActive": false,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "eventText": null
+    }
+  ],
+  "VarLineInfo": [
+    {
+      "varLineId": 0,
+      "eventId": 1,
+      "startCharaId": 0
+    },
+    {
+      "varLineId": 1,
+      "eventId": 1,
+      "startCharaId": 1
+    },
+    {
+      "varLineId": 2,
+      "eventId": 0,
+      "startCharaId": 3
+    },
+    {
+      "varLineId": 3,
+      "eventId": 2,
+      "startCharaId": 5
+    }
+  ]
+}

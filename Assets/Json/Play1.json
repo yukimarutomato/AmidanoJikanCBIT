@@ -1,0 +1,155 @@
+{
+  "VarticalLineNumber": -1,
+  "charaList": [
+    {
+      "id": 0,
+      "name": "イチカ",
+      "comment": null,
+      "likeCharaId": 1,
+      "disLikeCharaId": 2,
+      "StartPosition": -1,
+      "money": 0,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 0
+    },
+    {
+      "id": 1,
+      "name": "フタバ",
+      "comment": null,
+      "likeCharaId": 2,
+      "disLikeCharaId": 3,
+      "StartPosition": -1,
+      "money": 0,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 0
+    },
+    {
+      "id": 2,
+      "name": "ミツヤ",
+      "comment": null,
+      "likeCharaId": 3,
+      "disLikeCharaId": 4,
+      "StartPosition": -1,
+      "money": 0,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 0
+    },
+    {
+      "id": 3,
+      "name": "シロウ",
+      "comment": null,
+      "likeCharaId": 4,
+      "disLikeCharaId": 5,
+      "StartPosition": -1,
+      "money": 0,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 0
+    },
+    {
+      "id": 4,
+      "name": "イツキ",
+      "comment": null,
+      "likeCharaId": 5,
+      "disLikeCharaId": 0,
+      "StartPosition": -1,
+      "money": 0,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 0
+    },
+    {
+      "id": 5,
+      "name": "ムツミ",
+      "comment": null,
+      "likeCharaId": 0,
+      "disLikeCharaId": 1,
+      "StartPosition": -1,
+      "money": 0,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 0
+    }
+  ],
+  "flagList": [
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 0
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 1
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 2
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 3
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 4
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 5
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 6
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 7
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 8
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 9
+    }
+  ],
+  "VarLineInfo": null,
+  "HorLineInfo": null
+}

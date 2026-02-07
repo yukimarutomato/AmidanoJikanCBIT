@@ -1,0 +1,309 @@
+{
+  "VarticalLineNumber": 6,
+  "charaList": [
+    {
+      "id": 0,
+      "name": "イチカ",
+      "comment": null,
+      "likeCharaId": 1,
+      "disLikeCharaId": 2,
+      "money": 600,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 40
+     
+    },
+    {
+      "id": 1,
+      "name": "フタバ",
+      "comment": null,
+      "likeCharaId": 2,
+      "disLikeCharaId": 3,
+      "money": 500,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 50
+    },
+    {
+      "id": 2,
+      "name": "ミツヤ",
+      "comment": null,
+      "likeCharaId": 3,
+      "disLikeCharaId": 4,
+      "money": 500,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 55
+    },
+    {
+      "id": 3,
+      "name": "シロウ",
+      "comment": null,
+      "likeCharaId": 4,
+      "disLikeCharaId": 5,
+      "money": 450,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 55
+    },
+    {
+      "id": 4,
+      "name": "イツキ",
+      "comment": null,
+      "likeCharaId": 5,
+      "disLikeCharaId": 0,
+      "money": 550,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 45
+    },
+    {
+      "id": 5,
+      "name": "ムツミ",
+      "comment": null,
+      "likeCharaId": 0,
+      "disLikeCharaId": 1,
+      "money": 500,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 40
+    }
+  ],
+  //実装なし
+  "flagList": [
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 0
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 1
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 2
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 3
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 4
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 5
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 6
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 7
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 8
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 9
+    }
+  ],
+  //横線イベント情報、horLineIdは左上から縦に番号順
+  "HorLineInfo": [
+    {
+      "horLineId": 0,
+      "isActive": true,
+      "standFlagId": 0,
+      //各パラメーター変化量
+      "moneyValue": 0,
+      "heartValue": 0,
+      "healthValue": 0,
+      //イベントテキスト
+      "eventText": null
+    },
+    {
+      "horLineId": 1,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "healthValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 2,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "healthValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 3,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "healthValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 4,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "healthValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 5,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "healthValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 6,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "healthValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 7,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "healthValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 8,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "healthValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 9,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "healthValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 10,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "healthValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 11,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "healthValue": 0,
+      "eventText": null
+    },
+    {
+      "horLineId": 12,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 0,
+      "healthValue": 0,
+      "eventText": null
+    }
+  ],
+  //縦線情報
+  "VarLineInfo": [
+    {
+      //左から0
+      "varLineId": 0,
+      //お金：0,友情：1,体力：2
+      "eventId": 1,
+      //最初にいるキャラid、いないなら-1
+      "startCharaId": 0
+    },
+    {
+      "varLineId": 1,
+      "eventId": 1,
+      "startCharaId": 1
+    },
+    {
+      "varLineId": 2,
+      "eventId": 0,
+      "startCharaId": 3
+    },
+    {
+      "varLineId": 3,
+      "eventId": 0,
+      "startCharaId": 3
+    },
+    {
+      "varLineId": 4,
+      "eventId": 0,
+      "startCharaId": 3
+    },
+    {
+      "varLineId": 5,
+      "eventId": 2,
+      "startCharaId": 2
+    }
+
+
+  ]
+}

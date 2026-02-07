@@ -1,0 +1,320 @@
+{
+  "VarticalLineNumber": 6,
+  "charaList": [
+    {
+      "id": 0,
+      "name": "Ichika",
+      "comment": null,
+      "likeCharaId": 1,
+      "disLikeCharaId": 2,
+      "money": 450,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 55
+    },
+    {
+      "id": 1,
+      "name": "Futaba",
+      "comment": null,
+      "likeCharaId": 2,
+      "disLikeCharaId": 3,
+      "money": 500,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 50
+
+    },
+    {
+      "id": 2,
+      "name": "Mitsuya",
+      "comment": null,
+      "likeCharaId": 3,
+      "disLikeCharaId": 4,
+      "money": 500,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 55
+    },
+    {
+      "id": 3,
+      "name": "Shiro",
+      "comment": null,
+      "likeCharaId": 4,
+      "disLikeCharaId": 5,
+      "money": 450,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 55
+    },
+    {
+      "id": 4,
+      "name": "Itsuki",
+      "comment": null,
+      "likeCharaId": 5,
+      "disLikeCharaId": 0,
+      "money": 550,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 45
+    },
+    {
+      "id": 5,
+      "name": "Mutsumi",
+      "comment": null,
+      "likeCharaId": 0,
+      "disLikeCharaId": 1,
+      "money": 500,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 40
+    }
+  ],
+  //実装なし
+  "flagList": [
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 0
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 1
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 2
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 3
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 4
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 5
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 6
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 7
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 8
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 9
+    }
+  ],
+  //横線イベント情報、horLineIdは左上から縦に番号順
+  "HorLineInfo": [
+    {
+      "horLineId": 0,
+      "isActive": true,
+      "standFlagId": 0,
+      //各パラメーター変化量
+      "moneyValue": 0,
+      "heartValue": 2,
+      "healthValue": -25,
+      //イベントテキスト
+      "eventText":  "「Whoa! It’s suddenly pouring…」「Let’s dash to the station!」We got soaked in the rain. We might be coming down with a cold…"
+
+    },
+    {
+      "horLineId": 1,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": -200,
+      "heartValue": 2,
+      "healthValue": 5,
+      "eventText": "「Hey, want to go grab some food now?」「Sounds good, let’s go～」We enjoyed good food and conversation."
+
+    },
+    {
+      "horLineId": 2,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 2,
+      "healthValue": -10,
+      "eventText":"「Huh, it’s already this late」「We got way too into it」The call went on too long and We stayed up late."
+   },
+    {
+      "horLineId": 3,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 1,
+      "healthValue": -10,
+      "eventText": "「Want to go for a walk together?」「Sure, let’s get some sun」We took a relaxing walk while chatting about friends."
+
+    },
+    {
+      "horLineId": 4,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": -400,
+      "heartValue": 4,
+      "healthValue": -10,
+      "eventText": "「We’re going to have fun today～!」「Yeah!」We went to a theme park together. It was a lot of fun and very satisfying!"
+    },
+    {
+      "horLineId": 5,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 100,
+      "heartValue": -2,
+      "healthValue": 0,
+      "eventText":  "「Sorry, I mixed up the date…」「Should we cancel for today?」We messed up our plans to meet up…"
+
+    },
+    {
+      "horLineId": 6,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 2,
+      "healthValue": 10,
+      "eventText":  "「Alright! Another point!」「I can’t return it at all～」We played tennis together. Just the right amount of tiredness."
+
+    },
+    {
+      "horLineId": 7,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": -3,
+      "healthValue": -10,
+      "eventText": "「No, this character is definitely better!」「Huh, isn’t that bad taste?」A casual anime chat turned into an argument… so sad…"
+
+    },
+    {
+      "horLineId": 8,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 300,
+      "heartValue": 1,
+      "healthValue": -5,
+      "eventText": "「Oh, we’re on the same shift today」「Yeah, nice」We worked our part-time job together and earned some money!"
+
+    },
+    {
+      "horLineId": 9,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": -100,
+      "heartValue": -4,
+      "healthValue": -25,
+      "eventText":  "「Sorry, I wasn’t being careful」「No, it’s my fault too…」We got hurt because we were both careless. Awkward…"
+
+    },
+    {
+      "horLineId": 10,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": -200,
+      "heartValue": 3,
+      "healthValue": 10,
+      "eventText":"「Wow, this artwork is really good」「I really want that merch」We came to an original art exhibition of our favorite manga!"
+
+    },
+    {
+      "horLineId": 11,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 1,
+      "healthValue": 0,
+      "eventText": "「Oh, what a coincidence!」「Let’s walk together for a bit」We ran into each other on the way to our errands. We walked while chatting."
+
+    },
+    {
+      "horLineId": 12,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 300,
+      "heartValue": 0,
+      "healthValue": 0,
+      "eventText": "「Yes! First prize!」「They say we get gift vouchers～」We hit the jackpot at the shopping street lottery! We split it between the two of us."
+
+    }
+  ],
+  //縦線情報
+  "VarLineInfo": [
+    {
+      //左から0
+      "varLineId": 0,
+      //お金：0,友情：1,体力：2
+      "eventId": 1,
+      //最初にいるキャラid、いないなら-1
+      "startCharaId": 0
+    },
+    {
+      "varLineId": 1,
+      "eventId": 0,
+      "startCharaId": 1
+    },
+    {
+      "varLineId": 2,
+      "eventId": 2,
+      "startCharaId": 2
+    },
+    {
+      "varLineId": 3,
+      "eventId": 1,
+      "startCharaId": 3
+    },
+    {
+      "varLineId": 4,
+      "eventId": 0,
+      "startCharaId": 4
+    },
+    {
+      "varLineId": 5,
+      "eventId": 2,
+      "startCharaId": 5
+    }
+
+
+  ]
+}

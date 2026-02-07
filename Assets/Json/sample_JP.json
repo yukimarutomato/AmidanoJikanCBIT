@@ -1,0 +1,320 @@
+{
+  "VarticalLineNumber": 6,
+  "charaList": [
+    {
+      "id": 0,
+      "name": "イチカ",
+      "comment": null,
+      "likeCharaId": 1,
+      "disLikeCharaId": 2,
+      "money": 450,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 55
+
+    },
+    {
+      "id": 1,
+      "name": "フタバ",
+      "comment": null,
+      "likeCharaId": 2,
+      "disLikeCharaId": 3,
+      "money": 500,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 50
+    
+    },
+    {
+      "id": 2,
+      "name": "ミツヤ",
+      "comment": null,
+      "likeCharaId": 3,
+      "disLikeCharaId": 4,
+      "money": 500,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 55
+    },
+    {
+      "id": 3,
+      "name": "シロウ",
+      "comment": null,
+      "likeCharaId": 4,
+      "disLikeCharaId": 5,
+      "money": 450,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 55
+    },
+    {
+      "id": 4,
+      "name": "イツキ",
+      "comment": null,
+      "likeCharaId": 5,
+      "disLikeCharaId": 0,
+      "money": 550,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 45
+    },
+    {
+      "id": 5,
+      "name": "ムツミ",
+      "comment": null,
+      "likeCharaId": 0,
+      "disLikeCharaId": 1,
+      "money": 500,
+      "heart0": 0,
+      "heart1": 0,
+      "heart2": 0,
+      "heart3": 0,
+      "heart4": 0,
+      "heart5": 0,
+      "health": 40
+    }
+  ],
+  //実装なし
+  "flagList": [
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 0
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 1
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 2
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 3
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 4
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 5
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 6
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 7
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 8
+    },
+    {
+      "isFlagNeeded": false,
+      "isFlagSet": false,
+      "flagId": 9
+    }
+  ],
+  //横線イベント情報、horLineIdは左上から縦に番号順
+  "HorLineInfo": [
+    {
+      "horLineId": 0,
+      "isActive": true,
+      "standFlagId": 0,
+      //各パラメーター変化量
+      "moneyValue": 0,
+      "heartValue": 2,
+      "healthValue": -25,
+      //イベントテキスト
+      "eventText": "「うわっ！急に大雨が…」「駅までダッシュしよ！」2人で雨に濡れた。風邪気味かも…"
+
+    },
+    {
+      "horLineId": 1,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": -200,
+      "heartValue": 2,
+      "healthValue": 5,
+      "eventText": "ねぇ、今からご飯食べに行かない？」「いいね、行こ～」美味しいご飯と会話を楽しんだ"
+
+    },
+    {
+      "horLineId": 2,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 2,
+      "healthValue": -10,
+      "eventText": "「え、もうこんな時間」「盛り上がりすぎちゃったね」通話が長引いて夜更かししてしまった。"
+   },
+    {
+      "horLineId": 3,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 1,
+      "healthValue": -10,
+      "eventText": "「一緒に散歩行かない？」「いいね、日光浴しよ」　友達の噂話をしながらのんびり散歩した。"
+
+    },
+    {
+      "horLineId": 4,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": -400,
+      "heartValue": 4,
+      "healthValue": -10,
+      "eventText": "「今日は遊ぶぞ～！」「お～！」　2人でテーマパークに行った。楽しめて大満足！"
+    },
+    {
+      "horLineId": 5,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 100,
+      "heartValue": -2,
+      "healthValue": 0,
+      "eventText": "「ごめん日にち勘違いしてた…」「今日はキャンセルしようか」遊びの待ち合わせに失敗した…"
+
+    },
+    {
+      "horLineId": 6,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 2,
+      "healthValue": 10,
+      "eventText": "「よし！また得点！」「全然打ち返せない～」一緒にテニスをした。程よい疲労感。"
+
+    },
+    {
+      "horLineId": 7,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": -3,
+      "healthValue": -10,
+      "eventText": "「いやこっちのキャラの方が絶対良い！」「え、それは趣味悪くない？」何気ないアニメ語りが口論に発展…悲しい…"
+
+    },
+    {
+      "horLineId": 8,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 300,
+      "heartValue": 1,
+      "healthValue": -5,
+      "eventText": "「あ、今日シフト一緒だったんだ」「だね、やったー」仲良くバイトをしてお金を稼いだ！"
+
+    },
+    {
+      "horLineId": 9,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": -100,
+      "heartValue": -4,
+      "healthValue": -25,
+      "eventText": "「ごめん、不注意だった」「いやこちらこそ…」お互いの不注意で怪我をした。気まずい…"
+
+    },
+    {
+      "horLineId": 10,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": -200,
+      "heartValue": 3,
+      "healthValue": 10,
+      "eventText":"「わ～この絵めっちゃ良いね」「あのグッズ絶対欲しいな」好きな漫画の原画展に来た！推し語りが大盛り上がり。"
+
+    },
+    {
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 1,
+      "healthValue": 0,
+      "eventText": "「あれ、偶然！」「途中まで一緒に行こうよ」用事に向かう道中でバッタリ。雑談しながら歩いた。"
+
+    },
+    {
+      "horLineId": 12,
+      "isActive": true,
+      "standFlagId": 0,
+      "moneyValue": 0,
+      "heartValue": 1,
+      "healthValue": 0,
+      "eventText": "「やった！一等だ！」「商品券貰えるんだって～」商店街のくじ引きで大当たり！2人で山分けした"
+
+    }
+  ],
+  //縦線情報
+  "VarLineInfo": [
+    {
+      //左から0
+      "varLineId": 0,
+      //お金：0,友情：1,体力：2
+      "eventId": 1,
+      //最初にいるキャラid、いないなら-1
+      "startCharaId": 0
+    },
+    {
+      "varLineId": 1,
+      "eventId": 0,
+      "startCharaId": 1
+    },
+    {
+      "varLineId": 2,
+      "eventId": 2,
+      "startCharaId": 2
+    },
+    {
+      "varLineId": 3,
+      "eventId": 1,
+      "startCharaId": 3
+    },
+    {
+      "varLineId": 4,
+      "eventId": 0,
+      "startCharaId": 4
+    },
+    {
+      "varLineId": 5,
+      "eventId": 2,
+      "startCharaId": 5
+    }
+
+
+  ]
+}

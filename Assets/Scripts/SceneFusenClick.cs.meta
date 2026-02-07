@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 4f9f1b9b2fe56964b8be3034d9a2e8f6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Chara0: {fileID: 21300000, guid: 237b807d440b77d40ac833ca5e5cfdeb, type: 3}
+  - Chara1: {fileID: 21300000, guid: ebaec49d355dd5e4e843756544524f38, type: 3}
+  - Chara2: {fileID: 21300000, guid: 7444ce21f69ee334586e472819f714c0, type: 3}
+  - Chara3: {fileID: 21300000, guid: 679d9ec1eadc0b542adf0428af66e034, type: 3}
+  - Chara4: {fileID: 21300000, guid: 0c00ab7f778a9d649998d82bbf146924, type: 3}
+  - Chara5: {fileID: 21300000, guid: 8bd5f769f9ed593418ce01f505175f71, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
