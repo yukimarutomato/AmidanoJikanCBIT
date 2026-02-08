@@ -137,7 +137,7 @@ public class LoadJson : MonoBehaviour
             SpriteRenderer charaSpr = charaColliderObj.GetComponent<SpriteRenderer>();
             spawnedLines.Add(charaColliderObj);
             charaColliderObj.transform.position = new Vector3(x, 3.8f, -1);
-            VerticalLineEndManager.Instance.allCharas.Add(charaColliderObj);
+            
 
             // startCharaId に応じて Sprite を変更
             if (charaSpr != null)
@@ -181,6 +181,12 @@ public class LoadJson : MonoBehaviour
             SpriteRenderer eventSpr = eventColliderObj.GetComponent<SpriteRenderer>();
             spawnedLines.Add(eventColliderObj);
             eventColliderObj.transform.position = new Vector3(x, -3.5f, -1);
+            EndCollision endCol = eventColliderObj.GetComponent<EndCollision>();
+            if (endCol != null)
+            {
+                endCol.varLineId = i; // ← VarLineId を確定注入
+            }
+
             if (eventSpr != null)
             {
                 switch (varInfo.eventId)
@@ -196,7 +202,7 @@ public class LoadJson : MonoBehaviour
                         break;
                 }
             }
-            VerticalLineEndManager.Instance.verticalLines.Add(eventColliderObj);
+
 
             // --- 横線の生成（既存の処理） ---
             if (i != count - 1)

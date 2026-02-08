@@ -130,7 +130,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.49, y: 0.4}
+  m_Size: {x: 0.5, y: 0.65}
   m_EdgeRadius: 0
 --- !u!114 &-2848205890692430363
 MonoBehaviour:
@@ -147,6 +147,7 @@ MonoBehaviour:
   isInitialized: 0
   eventCanvasPrefab: {fileID: 1382494466619418955, guid: 9528d3757a7764243aa75996f28b7df8, type: 3}
   targetButton: {fileID: 1722381541247142684, guid: e3da23dcef3af7f41adb72c802d9140a, type: 3}
+  EndEvent: {fileID: 8832493463037114664, guid: 259d0974dca92b94d955d48b03f0989b, type: 3}
 --- !u!50 &-7486808868898289511
 Rigidbody2D:
   serializedVersion: 4

@@ -18,6 +18,7 @@ public class Charawalk : MonoBehaviour
     [SerializeField] private GameObject eventCanvasPrefab;
 
     [SerializeField] private UnityEngine.UI.Button targetButton;
+    [SerializeField] public GameObject EndEvent;
 
 
 
@@ -48,11 +49,13 @@ public class Charawalk : MonoBehaviour
     void OnEnable()
     {
         ButtonSet.OnWalkRequested += OnButtonClicked;
+        Debug.Log($"OnEnable {gameObject.name} frame:{Time.frameCount}");
     }
 
     void OnDisable()
     {
         ButtonSet.OnWalkRequested -= OnButtonClicked;
+        Debug.Log($"OnButtonClicked {gameObject.name} frame:{Time.frameCount}");
     }
 
 
@@ -77,6 +80,7 @@ public class Charawalk : MonoBehaviour
             yield return MoveY(-0.04f, 20);
         }
         IsWalkingDone = true;
+        VerticalLineEndManager.Instance.Decrement();
 
     }
 
